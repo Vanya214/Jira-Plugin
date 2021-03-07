@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <meta name="decorator" content="atl.general"/>
+        <title>My Servlet</title>
+    </head>
+    <body>
+        <div>
+            #foreach($obj in $map.keySet())
+                <div>$obj  -  $map.get($obj)</div>
+            #end
+
+        </div>
+
+    </body>
+</html>
